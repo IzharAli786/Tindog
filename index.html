@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bootstrap Installation</title>
+    <!-- google-font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/c39866dd81.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a href="#" class="navbar-brand">Dogx.com</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbardemo"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbardemo">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cta">about us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <h1>Meet new and interesting dogs near by</h1>
+            <button type="button" id="bt" class="btn btn-lg btn-dark">
+              <i class="fa-brands fa-apple check-icon"></i>Download
+            </button>
+            <button type="button" id="bt" class="btn btn-lg btn-outline-light">
+              <i class="fa-brands fa-google-play"></i>Download
+            </button>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <img
+              class="image-title"
+              src="images/iphone6.png"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="second">
+      <div class="row">
+        <div class="col-lg-4">
+          <i class="check fa-solid fa-circle-check fa-4x"></i>
+          <h2 class="firsth2">Easy to use</h2>
+          <p class="easyparagraph">so easy to use even your dog can use it</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fa-solid fa-bullseye fa-4x"></i>
+          <h2 class="firsth2">Elite Clientiele</h2>
+          <p class="easyparagraph">we have all the dogs the greatest dogs</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="heart fa-solid fa-heart fa-4x"></i>
+          <h2 class="firsth2">Guarranted to Work</h2>
+          <p class="easyparagraph">
+            Find the love of your dogs love or your money back
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonals">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimonals-h2">
+              I no longer have to Sniff on other dogs for love. I've found the
+              hotttest Corgi on dogx.com. Woof.
+            </h2>
+            <img
+              class="testimonals-img"
+              src="images/dog-img.jpg"
+              alt="dog-image"
+            />
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonals-h2">
+              I've found the hotttest Corgi on dogx.com. Woof.
+            </h2>
+            <img
+              id="lady"
+              src="images/lady-img.jpg"
+              class="d-block w-100"
+              alt="lady-img"
+            />
+            <em>Pebbles, New York</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section id="Press">
+      <img class="Press-img" src="images/TechCrunch.png" alt="" />
+      <img class="Press-img" src="images/bizinsider.png" alt="" />
+      <img class="Press-img" src="images/tnw.png" alt="" />
+      <img class="Press-img" src="images/mashable.png" alt="" />
+    </section>
+
+    <section id="pricing">
+      <div class="row">
+        <div class="pricing-col card col-lg-4 col-md-6">
+          <div class="card-header">
+            <h3>Basic</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>here i am with you and there no one is</p>
+            <p>there</p>
+            <p>where</p>
+            <button
+              type="button"
+              class="btn btn-outline-primary btn-lg btn-block card-button"
+            >
+              Sign-Up
+            </button>
+          </div>
+          <div class="card-footer"></div>
+        </div>
+
+        <div class="pricing-col card col-lg-4 col-md-6">
+          <div class="card-header">
+            <h3>Basic</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>here i am with you and there no one is</p>
+            <p>there</p>
+            <p>where</p>
+            <button
+              type="button"
+              class="btn btn-primary btn-lg btn-block card-button"
+            >
+              Sign-Up
+            </button>
+          </div>
+          <div class="card-footer"></div>
+        </div>
+
+        <div class="pricing-col card col-lg-4">
+          <div class="card-header">
+            <h3>Basic</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>here i am with you and there no one is</p>
+            <p>there</p>
+            <p>where</p>
+            <button
+              type="button"
+              class="btn btn-primary btn-lg btn-block card-button"
+            >
+              Sign-Up
+            </button>
+          </div>
+          <div class="card-footer"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+
+
+<section id="cta">
+
+  <h3>Find the True Love of Your Dog's Life Today.</h3>
+  <button type="button" id="bt" class="btn btn-lg btn-dark">
+    <i class="fa-brands fa-apple check-icon"></i>Download
+  </button>
+  <button type="button" id="bt" class="btn btn-lg btn-outline-light">
+    <i class="fa-brands fa-google-play"></i>Download
+  </button>
+</section>
+
+
+<!-- Footer -->
+
+<footer id="footer">
+
+  <div class="social-icons">
+    <i class="fa-brands fa-x-twitter fa-2xl"></i>
+    <i class="fa-brands fa-facebook fa-2xl"></i>
+    <i class="fa-brands fa-instagram fa-2xl"></i>
+    <i class="fa-solid fa-envelope fa-2xl"></i>
+
+
+  </div>
+  <p class="Copyright">© Copyright TinDog</p>
+
+</footer>
+<script src="JavaScript/index.js"></script>
+</body>
+
+</html>
